@@ -18,7 +18,7 @@ function Landing()
 
   return (
     <div className="bg-black p-12">
-      <div className="bg-[#EFEFEF] p-10 border rounded-md">
+      <div className="bg-[#EFEFEF] p-8 border rounded-md">
         {/* Header */}
         <Header name={data.state.user}/>
 

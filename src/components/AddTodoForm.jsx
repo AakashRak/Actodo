@@ -7,19 +7,23 @@ function AddTodoForm(props) {
   const [newActivity, setNewActivity] = useState("");
 
   function handleChange(evt) {
+   
     setNewActivity(evt.target.value);
+  
   }
 
   function addActivity()
   {
+   
     setActivityArr([...activityArr,{id:activityArr.length+1,activity:newActivity}])
     setNewActivity("")
+  
   }
   return (
     <div className="flex flex-col gap-3">
       <h1 className="text-2xl font-medium">Manage Activities</h1>
 
-      <div className=" ">
+      <div className="flex">
         <input
           type="text"
           value={newActivity}
