@@ -19,7 +19,7 @@ function AddTodoForm(props) {
     <div className="flex flex-col gap-3">
       <h1 className="text-2xl font-medium">Manage Activities</h1>
 
-      <div>
+      <div className=" ">
         <input
           type="text"
           value={newActivity}
